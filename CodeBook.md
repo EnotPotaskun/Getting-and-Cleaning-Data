@@ -9,26 +9,28 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
+tBodyAcc-XYZ, 
+tGravityAcc-XYZ, 
+tBodyAccJerk-XYZ, 
+tBodyGyro-XYZ, 
+tBodyGyroJerk-XYZ, 
+tBodyAccMag, 
+tGravityAccMag, 
+tBodyAccJerkMag, 
+tBodyGyroMag, 
+tBodyGyroJerkMag, 
+fBodyAcc-XYZ, 
+fBodyAccJerk-XYZ, 
+fBodyGyro-XYZ, 
+fBodyAccMag, 
+fBodyAccJerkMag, 
+fBodyGyroMag, 
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
-mean(): Mean value
-std(): Standard deviation
+The set of variables that were obtained from the original data set are: 
+mean() - Mean value, 
+std() - Standard deviation
 
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
+Varifble names were transformed to the tidy form (letters were converted to lowercase, other symbols were removed).
+
+As the result we obtained tidy data set with the average of each variable for each activity and each subject.
