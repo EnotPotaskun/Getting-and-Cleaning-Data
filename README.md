@@ -47,7 +47,7 @@ Creating tidy data set
 tidy_data <- group_by(data, subject, activity) %>% summarise_each(funs(mean))
 ```
 
-Writing data sets into text files
+Writing the data set into text file
 ```
 write.table(tidy_data, 'tidy_data.csv', row.name=FALSE)
 ```
