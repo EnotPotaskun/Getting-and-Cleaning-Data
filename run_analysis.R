@@ -28,6 +28,4 @@ data <- data[, c(2, 69, 3:68)]
 
 tidy_data <- group_by(data, subject, activity) %>% summarise_each(funs(mean))
 
-
-write.table(data, 'data.csv', row.name=FALSE)
 write.table(tidy_data, 'tidy_data.csv', row.name=FALSE)
