@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-Data
 
-For successful running, this script requires dplyr package
+For successful running this script requires dplyr package
 ```
 require(dplyr)
 ```
